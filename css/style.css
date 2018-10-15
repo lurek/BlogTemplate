@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+.clear {
+	overflow: hidden;
+}
+.header {
+	text-align: center;
+	background-color: #dc0e4b;
+	color: #fff;
+	height: 74px;
+}
+.header h2 {
+	padding-top: 15px;
+	font-size: 37px;
+}
+.nav {
+	background-color: #F93D6D;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nav ul li {
+	display: block;
+	padding: 11px;
+	float: left;
+}
+.nav ul li a {
+	text-decoration: none;
+	background-color: #DC0E4B;
+	color: #fff;
+	padding: 6px 24px;
+	border-radius: 4px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.nav ul li a:hover {
+	background-color: #F93D6D;
+	color: #333;
+	border: 1px solid #DC0E4B;
+}
+.content {
+	background-color: #fff;
+}
+.maincontent {
+	background-color: #E1DFE1;
+	width: 64%;
+	float: left;
+	margin: 15px 15px 15px 0px;
+	padding: 10px;
+	border: 1px solid #DC0E4B;
+}
+.samepost {
+	padding-bottom: 12px;
+}
+.samepost h2 {
+	border-bottom: 1px solid #ABA9AC;
+	margin-bottom: 8px;
+}
+.samepost img {
+	width: 39%;
+	background-color: #fff;
+	padding: 7px;
+	border: 1px solid #DC0E4B;
+	float: left;
+	margin-right: 12px;
+	height: 150px;
+}
+.samepost p {
+	text-align: justify;
+	font-size: 17px;
+}
+.readmore {
+	float: right;
+	margin-top: 10px;
+}
+.readmore a {
+	text-decoration: none;
+	background-color: #F0EEF0;
+	padding: 4px 8px;
+	display: block;
+	border: 1px solid #DC0E4B;
+	border-radius: 4px;
+	font-size: 17px;
+	color: #F93D6D;
+}
+.readmore a:hover {
+	background-color: #F93D6D;
+	color: #fff;
+}
+.sidebar {
+	background-color: #E1DFE1;
+	width: 29%;
+	float: right;
+	margin: 15px 0px 15px 15px;
+	padding: 10px;
+	border: 1px solid #DC0E4B;
+}
+.samesidebar {}
+.samesidebar h2 {
+	text-align: center;
+	background-color: #F93D6D;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #A30012;
+}
+.samesidebar p {
+	margin-bottom: 8px;
+}
+.footer {
+	background-color: #D60845;
+	height: 68px;
+	text-align: center;
+}
+.footer p {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 17px;
+}
