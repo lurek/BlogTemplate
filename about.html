@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>This is 2nd template practice</title>
+	<title>About Us</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </head>
 <body>
 	<div class="header main clear">
@@ -23,7 +24,7 @@
 	<div class="nav main clear">
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About Us</a></li>
+			<li><a id="active" href="about.html">About Us</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 	</div>
@@ -48,18 +49,28 @@
 			    </ul>
 			</div>
 			<div class="samesidebar clear">
-			<h2>Sidebar Two</h2>
-			<p>Some Sidebar Content Will Go Here. Some Sidebar Content Will Go Here.
-			Some Sidebar Content Will Go Here. </p>
-			<p>Some Sidebar Content Will Go Here. Some Sidebar Content Will Go Here.
-			Some Sidebar Content Will Go Here. </p>
-			</div>
-			<div class="samesidebar clear">
-			<h2>Sidebar Three</h2>
-			<p>Some Sidebar Content Will Go Here. Some Sidebar Content Will Go Here.
-			Some Sidebar Content Will Go Here. </p>
-			<p>Some Sidebar Content Will Go Here. Some Sidebar Content Will Go Here.
-			Some Sidebar Content Will Go Here. </p>
+               <h2>Popular Posts</h2>
+				<div class="popular">
+					<h3><a href="post.html">Popular Post Title</a></h3>
+					<img src="images/post2.jpg" alt="Post 2" />
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+					</p>
+			    </div>
+			    <div class="popular">
+					<h3><a href="post.html">Popular Post Title</a></h3>
+					<img src="images/post2.jpg" alt="Post 2" />
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+					</p>
+			    </div>
+			    <div class="popular">
+					<h3><a href="post.html">Popular Post Title</a></h3>
+					<img src="images/post2.jpg" alt="Post 2" />
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+					</p>
+			    </div>
 			</div>
 		</div>
 	</div>
@@ -73,5 +84,12 @@
 		</div>
 		<p>Copyright &copy; Md.Tanvir Ahamed Siddike 2018</p>
 	</div>
+	<div class="fixedicon">
+		<a href="#"><img src="images/social/fb.png" alt="Facebook"></a>
+		<a href="#"><img src="images/social/gp.png" alt="Twitter"></a>
+		<a href="#"><img src="images/social/tw.png" alt="Youtube"></a>
+		<a href="#"><img src="images/social/yt.png" alt="Google Plus"></a>
+	</div>
+	<script src="js/scrolltotop.js"></script>
 </body>
 </html>

@@ -1,13 +1,14 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Niramit:400,700');
+body {
 	margin: 0;
 	padding: 0;
 	outline: 0;
-}
-body {
-	font-family: arial;
+	font-family: 'Niramit', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	color: #000;
+	position: relative;
+	background-image: url(../images/bg.jpg);
 }
 .main {
     width: 960px;
@@ -65,13 +66,13 @@ body {
 	text-decoration: none;
 	background-color: #DC0E4B;
 	color: #fff;
-	padding: 6px 24px;
+	padding: 1px 22px;
 	border-radius: 4px;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 }
-.nav ul li a:hover {
-	background-color: #F93D6D;
+.nav ul li a:hover, #active {
+	background-color: #FF5787;
 	color: #333;
 	border: 1px solid #DC0E4B;
 }
@@ -95,9 +96,12 @@ body {
 	width: 250px;
 	float: left;
 	background: #fff;
-	padding: 10px;
+	padding: 5px;
 	margin-right: 10px;
 	border: 1px solid #F93D6D;
+}
+#postimage {
+
 }
 .about p {
 	font-size: 17px;
@@ -127,9 +131,11 @@ input[type="submit"]:hover {
 .samepost {
 	padding-bottom: 12px;
 }
-.samepost h2,.about h2 {
+.samepost h2, .about h2 {
 	border-bottom: 1px solid #ABA9AC;
 	margin-bottom: 8px;
+	padding-bottom: 8px;
+	margin-top: 8px;
 }
 .samepost img {
 	width: 39%;
@@ -162,6 +168,26 @@ input[type="submit"]:hover {
 	background-color: #F93D6D;
 	color: #fff;
 }
+.releated {}
+.releated h2 {
+	text-align: left;
+	background-color: #F93D6D;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #A30012;
+	margin-top: 2px;
+}
+.releated img {
+	width: 180px;
+	height: 100px;
+	padding: 4px;
+	background-color: #fff;
+	border: 1px solid #F4B4C7;
+	margin-left: 6px;
+}
+.releated img:hover {
+	opacity: 0.4;
+}
 .sidebar {
 	background-color: #E1DFE1;
 	width: 285px;
@@ -177,6 +203,7 @@ input[type="submit"]:hover {
 	padding: 10px;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #A30012;
+	margin-top: 2px;
 }
 .samesidebar ul {
 	padding: 0;
@@ -201,6 +228,31 @@ input[type="submit"]:hover {
 .samesidebar p {
 	margin-bottom: 8px;
 }
+.popular {}
+.popular h3 {
+	font-weight: normal;
+	border-bottom: 1px dashed;
+	padding-bottom: 5px;
+}
+.popular h3 a {
+	text-decoration: none;
+	color: #A0000F;
+}
+.popular h3 a:hover {
+	color: #000;
+}
+.popular img {
+	width: 110px;
+	height: 72px;
+	background-color: #fff;
+	padding: 4px;
+	border: 1px solid #DC0E4B;
+	border-radius: 10%;
+	float: left;
+	margin-right: 11px;
+	margin-top: 2px;
+}
+.popular p {}
 .footer {
 	background-color: #D60845;
 	text-align: center;
@@ -222,4 +274,13 @@ input[type="submit"]:hover {
 .footermenu ul li a {
 	color: #FFF;
 	font-size: 18px;
+}
+.fixedicon {
+	left: 0px;
+	top: 130px;
+	position: fixed;
+	width: 60px;
+}
+.fixedicon img {
+	width: 75px;
 }

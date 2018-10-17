@@ -1,38 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<title>This is 2nd template practice</title>
+	<title>Post Title</title>
 	<meta charset="utf-8">
-	<meta name="description" content="This website is about nature and animals">
-	<meta name="keywords" content="nature,animals,natural beauty">
-	<meta name="web-author" content="Md.Tanvir Ahamed Siddike">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-    <script src="js/jquery.nivo.slider.js"></script>
-
-	<script>
-	$(window).load(function() {
-		$('#slider').nivoSlider({
-			effect:'random',
-			slices:10,
-			animSpeed:300,
-			pauseTime:3000,
-			startSlide:0, //Set starting Slide (0 index)
-			directionNav:false,
-			directionNavHide:false, //Only show on hover
-			controlNav:false, //1,2,3...
-			controlNavThumbs:false, //Use thumbnails for Control Nav
-			pauseOnHover:true, //Stop animation while hovering
-			manualAdvance:false, //Force manual transitions
-			captionOpacity:0.8, //Universal caption opacity
-			beforeChange: function(){},
-			afterChange: function(){},
-			slideshowEnd: function(){} //Triggers after all slides have been shown
-		});
-	});
-	</script>
 </head>
 <body>
 	<div class="header main clear">
@@ -50,43 +23,33 @@
 	</div>
 	<div class="nav main clear">
 		<ul>
-			<li><a id="active" href="index.html">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About Us</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
 	</div>
-	<div class="slidersection main clear">
-		<div id="slider">
-            <a href="#"><img src="images/slideshow/01.jpg" alt="nature 1" title="Slideshow1" /></a>
-            <a href="#"><img src="images/slideshow/02.jpg" alt="nature 2" title="Slideshow2" /></a>
-            <a href="#"><img src="images/slideshow/03.jpg" alt="nature 3" title="Slideshow3" /></a>
-            <a href="#"><img src="images/slideshow/04.jpg" alt="nature 4" title="Slideshow4" /></a>
-        </div>
-	</div>
 	<div class="content main clear">
 		<div class="maincontent clear">
-			<div class="samepost clear">
+			<div class="about">
 				<h2>Post Title</h2>
-				<img src="images/post.jpg" alt="Post Image"/>
+				<img id="postimage" src="images/post.jpg" alt="About Us" />
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<div class="readmore clear"><a href="post.html">Read More</a></div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 			</div>
-			<div class="samepost clear">
-				<h2>Post Title</h2>
-				<img src="images/post2.jpg" alt="Post Image"/>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<div class="readmore clear"><a href="post.html">Read More</a></div>
-			</div>
-			<div class="samepost clear">
-				<h2>Post Title</h2>
-				<img src="images/post3.jpg" alt="Post Image"/>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<div class="readmore clear"><a href="post.html">Read More</a></div>
+			<div class="releated clear">
+				<h2>Releated Posts</h2>
+				<a href="#"><img src="images/post.jpg" alt="Post Title" title="Post Title" /></a>
+				<a href="#"><img src="images/post2.jpg" alt="Post Title" title="Post Title" /></a>
+				<a href="#"><img src="images/post3.jpg" alt="Post Title" title="Post Title" /></a>
+				<a href="#"><img src="images/post.jpg" alt="Post Title" title="Post Title" /></a>
+				<a href="#"><img src="images/post2.jpg" alt="Post Title" title="Post Title" /></a>
+				<a href="#"><img src="images/post3.jpg" alt="Post Title" title="Post Title" /></a>
 			</div>
 		</div>
 		<div class="sidebar clear">
 			<div class="samesidebar clear">
-			<h2>Latest Post</h2>
+			  <h2>Latest Post</h2>
 				<ul>
 					<li><a href="#">Post Title One Will Go Here</a></li>
 					<li><a href="#">Post Title Two Will Go Here</a></li>
@@ -118,9 +81,9 @@
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 					</p>
 			    </div>
-			</div>			
+			    </div>
+			</div>
 		</div>
-	</div>
 	<div class="footer main clear">
 		<div class="footermenu">
 			<ul>
@@ -131,25 +94,12 @@
 		</div>
 		<p>Copyright &copy; Md.Tanvir Ahamed Siddike 2018</p>
 	</div>
-	<div class="fixedicon">
-		<a href="#"><img src="images/social/fb.png" alt="Facebook"></a>
+	<div class="fixedicon"> 
+        <a href="#"><img src="images/social/fb.png" alt="Facebook"></a>
 		<a href="#"><img src="images/social/gp.png" alt="Twitter"></a>
 		<a href="#"><img src="images/social/tw.png" alt="Youtube"></a>
 		<a href="#"><img src="images/social/yt.png" alt="Google Plus"></a>
 	</div>
-	<script>
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-XXXXX-X']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<script src="js/scrolltotop.js"></script>
+	<script src="js/scrolltotop.js"></script>
 </body>
 </html>
