@@ -11,7 +11,7 @@ body {
 }
 .main {
     width: 960px;
-    margin: 0 auto;
+    margin: auto;
 }
 .conmain {
 	width: 942px;
@@ -52,39 +52,37 @@ body {
 	width: 50px;
 	margin-right: 9px;
 }
-.nav {
-	background-color: #F93D6D;
-}
 .nav ul {
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	overflow: hidden;
+	background-color: #E82E6B;
 }
-.nav ul li {
-	display: block;
+.nav li {
 	float: left;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	border-right: 1px solid #E31552;
+	border-left: 1px solid #F92B68;
 }
-.nav ul li a {
-	text-decoration: none;
-	color: #fff;
-	padding: 18px;
-	font-size: 18px;
-	font-weight: bold;
-	border-right: 1px solid #E12555;
-	border-left: 1px solid #FF4979;
+.nav li:last-child {
+    border-right: none;
 }
-.nav ul li:first-child {	
-	border-left: 0px solid #FF4979;
+.nav li:first-child {
+    border-left: none;
 }
-.nav ul li:last-child {
-	border-right: 0px solid #E12555;
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-.nav ul li a:hover, #active {
-	background-color: #FF5787;
-	color: #333;
-	border: 1px solid #DC0E4B;
+
+.nav li a:hover {
+    background-color: #D12B25;
+}
+#active {
+    background-color: #D12B25;
 }
 .slidersection {
 	box-shadow: 0px 2px 0px 0px #F93D6D;
